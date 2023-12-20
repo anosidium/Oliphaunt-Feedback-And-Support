@@ -1,0 +1,82 @@
+name: Bug Report
+description: File a bug report
+title: '[Bug] '
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before opening a bug report, please search for the behaviour in the existing issues. 
+        
+        ---
+        
+        Thank you for taking the time to file a bug report. To address this bug as fast as possible, we need some information.
+  - type: input
+    id: '1'
+    attributes:
+      label: Operating System
+      description: |
+        Which operating system do you use? Please provide the version as well.
+        
+        *From the Apple menu  in the upper-left corner of your screen, choose About This Mac*.
+      placeholder: e.g. macOS 14.2 Sonoma
+    validations:
+      required: true
+  - type: input
+    id: '2'
+    attributes:
+      label: App Version
+      description: |
+        Please provide the app version.
+        
+        *From the Oliphaunt menu in the upper-left corner of your screen, choose About Oliphaunt*.
+      placeholder: e.g. 1.0
+    validations:
+      required: true
+  - type: input
+    id: '3'
+    attributes:
+      label: Build Number
+      description: |
+        Please provide the build number. The build number is not the same as the app version. It is in round brackets and is
+        next to the app version, e.g. Version 3.4 (31).
+        
+        *From the Oliphaunt menu in the upper-left corner of your screen, choose About Oliphaunt and copy the number in round brackets*.
+      placeholder: e.g. 1.0
+  - type: textarea
+    id: '4'
+    attributes:
+      label: Reproduction Steps
+      description: |
+        Steps to reproduce the behaviour:
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
+    validations:
+      required: true
+  - type: textarea
+    id: '5'
+    attributes:
+      label: Expected Behaviour
+      description: What did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: '6'
+    attributes:
+      label: Screenshots
+      description: If applicable, add screenshots to help explain your problem.
+  - type: textarea
+    id: '7'
+    attributes:
+      label: Screen Recordings
+      description: if applicable, add screen recordings to help explain your problem.
+  - type: textarea
+    id: '8'
+    attributes:
+      label: Additional Context
+      description: >-
+        Add any other context about the problem here. You could upload a crash
+        report.
