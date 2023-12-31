@@ -14,4 +14,4 @@
 * Having problems?
 * Feature requests?
 
-Please create an issue and the developer should get back to you.
+Please create an [issue](https://github.com/anosidium/Oliphaunt-Feedback-And-Support/issues/new/choose) and the developer should get back to you.
