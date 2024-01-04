@@ -6,8 +6,21 @@
   <p>Made with ♥ in London, England, UK</p>
 </div>
 
-# Technical Information
+# Synopsis
+Oliphaunt is a [Mastodon](https://joinmastodon.org) client for macOS and is developed by a British developer.
+
+# TestFlight
+Oliphaunt is available on [TestFlight](https://testflight.apple.com/join/QLqIRNwe).
+
+# Screenshots
+<img width="1680" alt="A screenshot of Oliphaunt in light appearance" src="https://github.com/anosidium/test/assets/39738481/7e0a22e0-4185-49d4-adb8-93256a6f9199">
+
+<img width="1680" alt="A screenshot of Oliphaunt in dark appearance" src="https://github.com/anosidium/test/assets/39738481/7c405d4a-3d5a-4f0f-835e-9df5a1bd32bc">
+
+# Fact Sheet
 - Platform: macOS 14 Sonoma
+- Framework: AppKit, SwiftUI
+- Language: Swift
 
 # Support
 * Found a bug?
