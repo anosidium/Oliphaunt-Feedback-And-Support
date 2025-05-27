@@ -1,5 +1,5 @@
 name: Bug Report
-description: File a bug report
+description: File a bug report to help us improve Oliphaunt.
 title: "[Bug] "
 labels: ["bug"]
 
@@ -8,6 +8,8 @@ body:
     attributes:
       value: |
         ❗ **Before opening a bug report**, please check whether the behaviour has already been reported in [existing issues](../../issues).
+
+        ---
 
         Thank you for taking the time to report a bug. To help us address this as quickly as possible, please provide the information below.
 
