@@ -7,7 +7,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ❗ **Before opening a bug report**, please check whether the behaviour has already been reported in [existing issues](../../issues).
+        ❗ **Before opening a bug report**, please check whether the behaviour has already been reported in [existing issues](https://github.com/anosidium/Oliphaunt-Feedback-And-Support/issues).
 
         ---
 
