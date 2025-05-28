@@ -1,28 +1,73 @@
 name: Feature Request
-description: Suggest an idea for Oliphaunt
-title: '[Feature Request] '
-labels:
-  - enhancement
+description: Suggest an idea or improvement for Oliphaunt
+title: "[Feature Request] "
+labels: ["enhancement"]
+
 body:
   - type: markdown
     attributes:
       value: |
-        Before opening a feauture request, please search for the behaviour in the existing issues. 
+        ❗ **Before opening a feature request**, please search for the behaviour in the [existing issues](https://github.com/anosidium/Oliphaunt-Feedback-And-Support/issues).
         
         ---
         
-        Thank you for taking the time to file a feature request. To address this feature request as fast as possible, we need some information.
+        Thank you for taking the time to file a feature request. To help us understand and prioritise it, please fill in the information below.
+
   - type: textarea
+    id: problem
     attributes:
-      label: Description
-      description: A clear and concise description of the problem or missing capability
+      label: Problem or Motivation
+      description: A clear and concise description of the problem or missing capability.
+      placeholder: I find it frustrating when...
     validations:
       required: true
+
   - type: textarea
+    id: solution
     attributes:
-      label: Describe the solution you'd like
+      label: Proposed Solution
       description: If you have a solution in mind, please describe it.
+      placeholder: I would like to see where I could...
+
   - type: textarea
+    id: alternatives
     attributes:
-      label: Describe alternatives you've considered
+      label: Alternatives Considered
       description: Have you considered any alternative solutions or workarounds?
+      placeholder: I tried using...
+
+  - type: textarea
+    id: mockups
+    attributes:
+      label: Design Mockups
+      description: If you have any mockups, sketches, or visual examples of your idea, please share them here. You can drag and drop images.
+      placeholder: Paste or drag and drop mockups here.
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      description: Add any other context, use cases, or examples about the feature request here.
+      placeholder: This feature would be quite useful for users who might...
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Feature Priority
+      description: This helps us understand the impact of the feature.
+      options:
+        - Not important, but would be nice
+        - Useful, but not urgent
+        - Would significantly improve my experience
+        - Critical — I cannot use the app effectively without it
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: Contribution Interest
+      description: Would you be interested in helping out?
+      options:
+        - label: I am happy to help test this feature
+        - label: I can provide more mockups or details if needed
